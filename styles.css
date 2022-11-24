@@ -22,7 +22,8 @@ body{
     font-size: 16pt;
     text-align: center;
     margin: 0px;
-   
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 .mainbody{
     background-color: black;
