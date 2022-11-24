@@ -2,6 +2,9 @@ body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif
 }
+.centrerTexte{
+    text-align: center;
+}
 .pad{
     padding: 25px;
 }
@@ -30,4 +33,11 @@ body{
     color: white;
     font-size: 16pt;
     text-align: center;
+}
+a:hover {
+    background-color: rgb(199, 49, 49);
+    font-weight: bold;
+  }
+input[type="button"]{
+    background-color: pink;
 }
