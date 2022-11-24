@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.pad{
+    padding: 25px;
+}
+.header{
+    color: rgb(0, 0, 0);
+    height: 100px;
+    font-size: 36pt;
+    text-align: center;
+}
+.backgroundwp{
+    background: url("wallpaper ubu no logo.png");
+    background-size: auto;
+}
+.banner{
+    background-color:rgb(194, 95, 95);
+    color: rgb(0, 0, 0);
+    height: 40px;
+    font-size: 16pt;
+    text-align: center;
+    margin: 0px;
+   
+}
+.mainbody{
+    background-color: black;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+}
