@@ -55,16 +55,131 @@ lienaa:hover {
 .boutanim:hover {
     background-color: black;
     border-radius: 4px;
-    animation-name: rgbanim;
+    animation-name: rgbanim,breatheanim;
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
 @keyframes rgbanim{
-    0%   {border: 2px solid red; padding: 15px 32px;}
-    16%  {border: 2px solid yellow; padding: 15px 36px;}
-    32%  {border: 2px solid green; padding: 15px 32px;}
-    48% {border: 2px solid aqua; padding: 15px 36px;}
-    64% {border: 2px solid blue; padding: 15px 32px;}
-    80% {border: 2px solid purple; padding: 15px 36px;}
-    100% {border: 2px solid red; padding: 15px 32px;}
+    0%   {border: 2px solid red;color: red;}
+    16%  {border: 2px solid yellow;color: yellow;}
+    32%  {border: 2px solid green;color: green;}
+    48% {border: 2px solid aqua;color: aqua;}
+    64% {border: 2px solid blue;color: blue;}
+    80% {border: 2px solid purple;color: purple;}
+    100% {border: 2px solid red;color: red;}
+}
+@keyframes breatheanim{
+    0% {padding: 15px 32px;}
+    50% {padding: 15px 50px}
+    100% {padding: 15px 32px}
+}
+.boutanim:active {
+    background-color: black;
+    border-radius: 4px;
+    animation-name: shakeanim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+@keyframes shakeanim{
+    0% {padding: 8px 22px ;}
+    1% {padding: 16px 23px ;}
+    2% {padding: 20px 23px ;}
+    3% {padding: 6px 40px ;}
+    4% {padding: 9px 27px ;}
+    5% {padding: 19px 23px ;}
+    6% {padding: 23px 26px ;}
+    7% {padding: 8px 29px ;}
+    8% {padding: 11px 38px ;}
+    9% {padding: 25px 41px ;}
+    10% {padding: 23px 39px ;}
+    11% {padding: 24px 41px ;}
+    12% {padding: 25px 37px ;}
+    13% {padding: 14px 34px ;}
+    14% {padding: 8px 40px ;}
+    15% {padding: 25px 42px ;}
+    16% {padding: 6px 28px ;}
+    17% {padding: 19px 30px ;}
+    18% {padding: 10px 29px ;}
+    19% {padding: 7px 31px ;}
+    20% {padding: 6px 25px ;}
+    21% {padding: 10px 25px ;}
+    22% {padding: 11px 24px ;}
+    23% {padding: 14px 22px ;}
+    24% {padding: 13px 29px ;}
+    25% {padding: 12px 22px ;}
+    26% {padding: 9px 29px ;}
+    27% {padding: 5px 27px ;}
+    28% {padding: 18px 28px ;}
+    29% {padding: 15px 22px ;}
+    30% {padding: 17px 30px ;}
+    31% {padding: 25px 31px ;}
+    32% {padding: 19px 38px ;}
+    33% {padding: 21px 37px ;}
+    34% {padding: 7px 39px ;}
+    35% {padding: 23px 22px ;}
+    36% {padding: 11px 37px ;}
+    37% {padding: 19px 34px ;}
+    38% {padding: 6px 38px ;}
+    39% {padding: 9px 29px ;}
+    40% {padding: 13px 34px ;}
+    41% {padding: 14px 40px ;}
+    42% {padding: 6px 32px ;}
+    43% {padding: 5px 23px ;}
+    44% {padding: 10px 39px ;}
+    45% {padding: 23px 22px ;}
+    46% {padding: 22px 38px ;}
+    47% {padding: 18px 39px ;}
+    48% {padding: 23px 35px ;}
+    49% {padding: 21px 27px ;}
+    50% {padding: 19px 26px ;}
+    51% {padding: 18px 32px ;}
+    52% {padding: 9px 28px ;}
+    53% {padding: 14px 42px ;}
+    54% {padding: 21px 38px ;}
+    55% {padding: 16px 26px ;}
+    56% {padding: 21px 42px ;}
+    57% {padding: 17px 26px ;}
+    58% {padding: 24px 32px ;}
+    59% {padding: 21px 28px ;}
+    60% {padding: 12px 38px ;}
+    61% {padding: 20px 37px ;}
+    62% {padding: 23px 40px ;}
+    63% {padding: 13px 30px ;}
+    64% {padding: 16px 29px ;}
+    65% {padding: 14px 31px ;}
+    66% {padding: 12px 28px ;}
+    67% {padding: 10px 24px ;}
+    68% {padding: 20px 24px ;}
+    69% {padding: 25px 32px ;}
+    70% {padding: 16px 26px ;}
+    71% {padding: 25px 34px ;}
+    72% {padding: 18px 25px ;}
+    73% {padding: 20px 36px ;}
+    74% {padding: 21px 35px ;}
+    75% {padding: 21px 41px ;}
+    76% {padding: 25px 28px ;}
+    77% {padding: 12px 40px ;}
+    78% {padding: 23px 41px ;}
+    79% {padding: 5px 40px ;}
+    80% {padding: 16px 39px ;}
+    81% {padding: 21px 22px ;}
+    82% {padding: 18px 36px ;}
+    83% {padding: 10px 35px ;}
+    84% {padding: 20px 32px ;}
+    85% {padding: 5px 42px ;}
+    86% {padding: 21px 38px ;}
+    87% {padding: 14px 41px ;}
+    88% {padding: 24px 31px ;}
+    89% {padding: 21px 38px ;}
+    90% {padding: 9px 30px ;}
+    91% {padding: 6px 29px ;}
+    92% {padding: 13px 28px ;}
+    93% {padding: 20px 30px ;}
+    94% {padding: 11px 42px ;}
+    95% {padding: 16px 24px ;}
+    96% {padding: 7px 34px ;}
+    97% {padding: 20px 35px ;}
+    98% {padding: 21px 42px ;}
+    99% {padding: 14px 40px ;}
+    100% {padding: 8px 37px ;}
 }
