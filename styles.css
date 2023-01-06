@@ -76,11 +76,11 @@ lienaa:hover {
 .boutanim:active {
     background-color: black;
     border-radius: 4px;
-    animation-name: shakeanim;
+    /* animation-name: shakeanim; */
     animation-duration: 1s;
     animation-iteration-count: infinite;
   }
-@keyframes shakeanim{
+/* @keyframes shakeanim{
     0% {padding: 8px 22px ;}
     1% {padding: 16px 23px ;}
     2% {padding: 20px 23px ;}
@@ -182,4 +182,4 @@ lienaa:hover {
     98% {padding: 21px 42px ;}
     99% {padding: 14px 40px ;}
     100% {padding: 8px 37px ;}
-}
+} */
